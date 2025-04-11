@@ -15,15 +15,15 @@ Please follow the instructions for downloading datasets in [CEC](https://github.
 
 ## Cifar-100
 ```bash  
-python train.py -project main -dataset cifar100 -lr_base 0.1 -epochs_base 10 -gpu 0 --closer --save main -batch_size_base 128 -seed 1  --temp 32
+python train.py -project main -dataset cifar100 -lr_base 0.1 -epochs_base 10 -gpu 0 --main --save main -batch_size_base 128 -seed 1  --temp 32
 ```
 ## CUB-200
 ```bash  
-python train.py -project main -dataset cub200 -lr_base 0.01 -epochs_base 10 -gpu 0 --closer --save main -batch_size_base 128 -seed 1 --temp 8
+python train.py -project main -dataset cub200 -lr_base 0.01 -epochs_base 10 -gpu 0 --main --save main -batch_size_base 128 -seed 1 --temp 8
 ``` 
 ## miniImageNet
 ```bash  
-python train.py -project main -dataset mini_imagenet -lr_base 0.01 -epochs_base 10 -gpu 0 --closer --save main -batch_size_base 128 -seed 1 --temp 32
+python train.py -project main -dataset mini_imagenet -lr_base 0.01 -epochs_base 10 -gpu 0 --main --save main -batch_size_base 128 -seed 1 --temp 32
 ``` 
 
 # Acknowledgement
