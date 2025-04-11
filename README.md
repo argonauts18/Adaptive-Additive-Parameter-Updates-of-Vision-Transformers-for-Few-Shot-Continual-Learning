@@ -8,6 +8,17 @@ Integrating new class information without losing previously acquired knowledge r
 ![My Image](Main_Figure.png)
 
 # Datasets
+Please follow the instructions for downloading datasets in [CEC](https://github.com/icoz69/CEC-CVPR2021?tab=readme-ov-file#datasets-and-pretrained-models).
 
 
 # Script
+```bash
+python train.py --project closer --dataset cifar100 --lr_base 0.1 --epochs_base 200 --gpu 0 --cl
+
+
+# Acknowledgement
+
+We would like to thank the below repositories for their contributions. 
+[CLOSER](https://github.com/JungHunOh/CLOSER_ECCV2024/tree/master?tab=readme-ov-file)
+[CEC](https://github.com/icoz69/CEC-CVPR2021?tab=readme-ov-file#datasets-and-pretrained-models)
+[fscil](https://github.com/xyutao/fscil)
