@@ -42,8 +42,8 @@ class MYNET(nn.Module):
         self.args = args
 
         # Create ViT backbone (vit_base_patch16_224) and remove its default classification head.
-        #self.encoder = timm.create_model('vit_base_patch16_224', pretrained=True)
-        self.encoder = timm.create_model('vit_base_patch16_224_in21k', pretrained=True)
+        #self.encoder = timm.create_model('vit_base_patch16_224', pretrained=True) #dagger
+        self.encoder = timm.create_model('vit_base_patch16_224_in21k', pretrained=True) #double_dagger
         self.encoder.head = nn.Identity()
 
         # Freeze all encoder parameters.
