@@ -23,7 +23,7 @@ python train.py -project main -dataset cub200 -lr_base 0.01 -epochs_base 10 -gpu
 ``` 
 ## miniImageNet
 ```bash  
-python train.py -project main -dataset mini_imagenet -lr_base 0.01 -epochs_base 10 -gpu 0 --main --save main -batch_size_base 128 -seed 1 --temp 32
+python train.py -project main -dataset mini_imagenet -lr_base 0.01 -epochs_base 3 -gpu 0 --main --save main -batch_size_base 128 -seed 1 --temp 32
 ``` 
 
 # Acknowledgement
