@@ -12,9 +12,11 @@ Please follow the instructions for downloading datasets in [CEC](https://github.
 
 
 # Script
+
+## Cifar-100
 ```bash
 python train.py --project closer --dataset cifar100 --lr_base 0.1 --epochs_base 200 --gpu 0 --cl
-
+```bash
 
 # Acknowledgement
 
