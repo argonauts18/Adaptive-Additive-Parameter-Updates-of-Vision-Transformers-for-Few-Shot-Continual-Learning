@@ -1,5 +1,7 @@
 # Paper Title: 
-Adaptive Additive Parameter Updates of Vision Transformers for Few-Shot Continual Learning 
+Adaptive Additive Parameter Updates of Vision Transformers for Few-Shot Continual Learning  
+
+https://arxiv.org/pdf/2504.08982
 
 
 # Abstract:
