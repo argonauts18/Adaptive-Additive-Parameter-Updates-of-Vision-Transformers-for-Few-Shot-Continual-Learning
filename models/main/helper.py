@@ -9,9 +9,7 @@ import torch.nn as nn
 import numpy as np
 from torchvision import transforms
 
-# ------------------------------
-# Updated base_train function 
-# ------------------------------
+
 def base_train(model, trainloader, optimizer, scheduler, epoch, args):
     """
     Base training function using cross-entropy loss.
@@ -76,9 +74,6 @@ def base_train(model, trainloader, optimizer, scheduler, epoch, args):
     return metrics, ta.item()
 
 
-# ------------------------------
-# Updated replace_base_fc function 
-# ------------------------------
 def replace_base_fc(trainset, transform, model, args):
     """
     Replaces the classifier's weights with the average feature embeddings 
@@ -119,9 +114,7 @@ def replace_base_fc(trainset, transform, model, args):
     model.module.classifier.weight.data[:args.base_class] = proto_list
     return model
 
-# ------------------------------
-# Updated test function 
-# ------------------------------
+
 def test(model, testloader, epoch, args, session):
     """
     Evaluates the model on the test set.
