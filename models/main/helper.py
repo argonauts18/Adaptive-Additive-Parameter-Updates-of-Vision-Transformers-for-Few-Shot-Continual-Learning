@@ -1,4 +1,3 @@
-# helper.py
 import math
 from .Network import MYNET
 from utils import *
