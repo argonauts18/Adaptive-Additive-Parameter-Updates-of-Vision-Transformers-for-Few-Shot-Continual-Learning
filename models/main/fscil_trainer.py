@@ -9,9 +9,9 @@ import numpy as np
 from .helper import *  
 from utils import *
 from dataloader.data_utils import *
-from .Network import MYNET  # Ensure that the Network module is imported
+from .Network import MYNET  
 
-# Helper function to log the norm of delta weights for all AdditiveLinear modules.
+
 def log_delta_weight_norms(model):
     total_norm = 0.0
     count = 0
