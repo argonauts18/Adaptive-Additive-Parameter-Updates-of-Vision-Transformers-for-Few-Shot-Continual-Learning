@@ -60,7 +60,7 @@ class MYNET(nn.Module):
                 break
         self.shared_delta = nn.Parameter(torch.zeros(out_features, in_features))
 
-        # Choose the blocks where you want to enable additive updates.
+        # Choose the blocks where we want to enable additive updates.
         num_blocks = len(self.encoder.blocks)
         num_delta_blocks = 12  # Number of transformer blocks to update
         for i, block in enumerate(self.encoder.blocks):
